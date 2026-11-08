@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cataleg>
 	<movie id="P01">
 		<title>El laberint del faune</title>
@@ -9,12 +9,12 @@
 			<actor>
 				<name>Ivana</name>
 				<surname>Baquero</surname>
-      </actor>
-      <actor>
+			</actor>
+			<actor>
 				<name>Sergi</name>
 				<surname>López</surname>
-      </actor>
-    </main_actors>
+			</actor>
+		</main_actors>
 	</movie>
 	<movie id="P02">
 		<title>Societat Morta</title>
@@ -25,16 +25,16 @@
 			<actor>
 				<name>Robin</name>
 				<surname>Williams</surname>
-      </actor>
-      <actor>
+			</actor>
+			<actor>
 				<name>Ethan</name>
 				<surname>Hawke</surname>
-      </actor>
-      <actor>
+			</actor>
+			<actor>
 				<name>Robert</name>
 				<surname>Sean Leonard </surname>
-      </actor>
-    </main_actors>
+			</actor>
+		</main_actors>
 	</movie>
 	<movie id="P03">
 		<title>Interstellar</title>
@@ -45,11 +45,11 @@
 			<actor>
 				<name>Matthew</name>
 				<surname>McConaughey</surname>
-      </actor>
-      <actor>
+			</actor>
+			<actor>
 				<name>Anne</name>
 				<surname>Hathaway</surname>
-      </actor>
-    </main_actors>
-  </movie>
+			</actor>
+		</main_actors>
+	</movie>
 </cataleg>
