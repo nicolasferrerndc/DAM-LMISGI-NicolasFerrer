@@ -1,0 +1,44 @@
+Exercici 1 – Correcció d'errors en XML (2 punts)
+
+Fragment 1.1
+
+Errors:
+1. El primer element contacte dins de l’element arrel agenda conté l’atribut id amb el valor 1 que hauria d’estar entre cometes dobles "1".
+2. L’etiqueta email dins del primer element pare contacte està oberta, però no té l’etiqueta de tancament corresponent </email>.
+3. El segon element contacte dins de l’element arrel agenda té l’etiqueta d’apertura amb la primera lletra mayúscula Contacte i l’etiqueta de tancament amb la primera lletra minúscula contacte.
+
+Versió corregida:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+	<contacte id="1">
+		<nom>Pau Ferrer</nom>
+		<telefon>600 123 456</telefon>
+	<email>pau@exemple.cat</email>
+	</contacte>
+	<contacte id="2">
+		<nom>Rita Camps</nom>
+		<telefon>677 987 654</telefon>
+		<email>rita@exemple.cat</email>
+	</contacte>
+</agenda>
+
+Fragment 1.2
+
+Errors:
+1. No conté el pròleg amb la seva declaració XML corresponent on s’especifica la versió, el tipus de codificació i opcionalment si es autònom o no.
+2. La segona etiqueta classe dins del primer element pare dia dintre l’element arrel horari, no està tancada correctament amb el slash / corresponent </classe>.
+3. El valor de l’atribut nom del segon element fill dia del seu element pare i arrel horari no està escrit entre dobles cometes "Dimarts".
+
+Versió corregida:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+	<dia nom="Dilluns">
+		<classe inici="08:00" fi="09:00">Matemàtiques</classe>
+		<classe inici="09:00" fi="10:00">Anglès</classe>
+	</dia>
+	<dia nom="Dimarts">
+		<classe inici="10:00" fi="11:00">Història</classe>
+	</dia>
+</horari>

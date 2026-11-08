@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+	<movie id="P01">
+		<title>El laberint del faune</title>
+		<year>2006</year>
+		<genre>Fantasia</genre>
+		<duration unit="min">118</duration>
+		<main_actors>
+			<actor>
+				<name>Ivana</name>
+				<surname>Baquero</surname>
+      </actor>
+      <actor>
+				<name>Sergi</name>
+				<surname>López</surname>
+      </actor>
+    </main_actors>
+	</movie>
+	<movie id="P02">
+		<title>Societat Morta</title>
+		<year>1989</year>
+		<genre>Drama</genre>
+		<duration unit="min">128</duration>
+		<main_actors>
+			<actor>
+				<name>Robin</name>
+				<surname>Williams</surname>
+      </actor>
+      <actor>
+				<name>Ethan</name>
+				<surname>Hawke</surname>
+      </actor>
+      <actor>
+				<name>Robert</name>
+				<surname>Sean Leonard </surname>
+      </actor>
+    </main_actors>
+	</movie>
+	<movie id="P03">
+		<title>Interstellar</title>
+		<year>2014</year>
+		<genre>Ciència-ficció</genre>
+		<duration unit="min">169</duration>
+		<main_actors>
+			<actor>
+				<name>Matthew</name>
+				<surname>McConaughey</surname>
+      </actor>
+      <actor>
+				<name>Anne</name>
+				<surname>Hathaway</surname>
+      </actor>
+    </main_actors>
+  </movie>
+</cataleg>

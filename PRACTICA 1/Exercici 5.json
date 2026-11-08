@@ -1,0 +1,57 @@
+{
+  "enquestes": [
+    {
+      "id": 10,
+      "titol": "Enquesta de satisfacció",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com califiques la teva experiència amb nosaltres?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Molt bona",
+            "Bona",
+            "Indiferent",
+            "Podría ser millor",
+            "Gens agradable"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Com has trobat el servei rebut durant tota l'estància?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Molt satisfactori",
+            "Satisfactori",
+            "Indiferent",
+            "Poc satisfactori",
+            "Res satisfactori"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titol": "Feedback",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "T'agradaria tornar en un futur amb nosaltres? Justifica la teva resposta.",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Què és el que més t'ha agradat o cridat l'atenció?",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 3,
+          "text": "Què és el que menys t'ha agradat o milloraries?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
