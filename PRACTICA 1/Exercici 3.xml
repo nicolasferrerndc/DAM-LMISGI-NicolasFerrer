@@ -7,25 +7,25 @@
 		<jugadors dorsal="1">
 			<nom>Carles Vidal</nom>
 			<categoria>A</categoria>
-    </jugadors>
-    <jugadors dorsal="2">
+		</jugadors>
+		<jugadors dorsal="2">
 			<nom>Marta Puig</nom>
 			<categoria>B</categoria>
-    </jugadors>
-  </equips>
-  <equips id="11">
+		</jugadors>
+	</equips>
+	<equips id="11">
 		<nom>Smash FC</nom>
 		<jugadors dorsal="1">
 			<nom>Jordi Roca</nom>
 			<categoria>A</categoria>
-    </jugadors>
-    <jugadors dorsal="2">
+		</jugadors>
+		<jugadors dorsal="2">
 			<nom>Laia Solà</nom>
 			<categoria>A</categoria>
-    </jugadors>
-    <jugadors dorsal="3">
+		</jugadors>
+		<jugadors dorsal="3">
 			<nom>Pere Mas</nom>
 			<categoria>B</categoria>
-    </jugadors>
-  </equips>
+		</jugadors>
+	</equips>
 </tornei>
